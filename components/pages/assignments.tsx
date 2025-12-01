@@ -1,0 +1,75 @@
+'use client'
+
+import { Button } from '@/components/ui/button'
+import { FileText, LinkIcon } from 'lucide-react'
+
+export default function Assignments() {
+  const assignments = [
+    {
+      id: 1,
+      week: 'Week 1',
+      title: 'Introduction to Web Development',
+      description: 'Learn the fundamentals of HTML, CSS, and JavaScript basics.'
+    },
+    {
+      id: 2,
+      week: 'Week 2',
+      title: 'Responsive Design Principles',
+      description: 'Master responsive web design and mobile-first approach.'
+    },
+    {
+      id: 3,
+      week: 'Week 3',
+      title: 'Advanced JavaScript Concepts',
+      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    },
+  ]
+
+  return (
+    <div className="w-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold text-foreground mb-12">Assignments</h1>
+
+        <div className="space-y-6">
+          {assignments.map((assignment) => (
+            <div key={assignment.id} className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                <div>
+                  <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold mb-2">
+                    {assignment.week}
+                  </div>
+                  <h2 className="text-2xl font-bold text-foreground">{assignment.title}</h2>
+                  <p className="text-foreground/70 mt-2">{assignment.description}</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() => window.open('https://docs.google.com/spreadsheets/your-instructions-link', '_blank')}
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() => window.open('https://docs.google.com/spreadsheets/your-submission-link', '_blank')}
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-12 p-6 bg-muted/30 rounded-lg border border-border">
+          <p className="text-foreground/70 text-center">
+            Remember to submit your assignments on time. Each assignment builds on the previous concepts learned in the sessions.
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
