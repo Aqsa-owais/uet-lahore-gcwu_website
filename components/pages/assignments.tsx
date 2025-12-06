@@ -8,8 +8,8 @@ export default function Assignments() {
     {
       id: 1,
       week: 'Week 1',
-      title: 'Introduction to Web Development',
-      description: 'Learn the fundamentals of HTML, CSS, and JavaScript basics.'
+      title: 'Create & Polish Your LinkedIn Profile',
+      description: 'Create & Polish Your LinkedIn Profile.'
     },
     {
       id: 2,
@@ -20,6 +20,24 @@ export default function Assignments() {
     {
       id: 3,
       week: 'Week 3',
+      title: 'Advanced JavaScript Concepts',
+      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    },
+    {
+      id: 4,
+      week: 'Week 4',
+      title: 'Advanced JavaScript Concepts',
+      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    },
+    {
+      id: 5,
+      week: 'Week 5',
+      title: 'Advanced JavaScript Concepts',
+      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    },
+    {
+      id: 6,
+      week: 'Week 6',
       title: 'Advanced JavaScript Concepts',
       description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
     },
@@ -47,14 +65,14 @@ export default function Assignments() {
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
-                  onClick={() => window.open('https://docs.google.com/spreadsheets/your-instructions-link', '_blank')}
+                  onClick={() => window.open('https://docs.google.com/document/d/171rHSiRwF8KOq9L5p9Eoh8VByE5wW1qK5dmaM-FgMZs/edit?tab=t.0#heading=h.gj5xp1xdkdlc', '_blank')}
                 >
                   <FileText size={18} />
                   Assignment Instructions
                 </Button>
                 <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
-                  onClick={() => window.open('https://docs.google.com/spreadsheets/your-submission-link', '_blank')}
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSePF7KBuC5j6Lo7yIm7gwNJFQHJnlGSsOj5cvELw5o3cfCC6g/viewform', '_blank')}
                 >
                   <LinkIcon size={18} />
                   Submit Assignment
