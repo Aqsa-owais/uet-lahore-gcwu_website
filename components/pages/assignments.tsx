@@ -11,36 +11,36 @@ export default function Assignments() {
       title: 'Create & Polish Your LinkedIn Profile',
       description: 'Create & Polish Your LinkedIn Profile.'
     },
-    {
-      id: 2,
-      week: 'Week 2',
-      title: 'Responsive Design Principles',
-      description: 'Master responsive web design and mobile-first approach.'
-    },
-    {
-      id: 3,
-      week: 'Week 3',
-      title: 'Advanced JavaScript Concepts',
-      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
-    },
-    {
-      id: 4,
-      week: 'Week 4',
-      title: 'Advanced JavaScript Concepts',
-      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
-    },
-    {
-      id: 5,
-      week: 'Week 5',
-      title: 'Advanced JavaScript Concepts',
-      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
-    },
-    {
-      id: 6,
-      week: 'Week 6',
-      title: 'Advanced JavaScript Concepts',
-      description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
-    },
+    // {
+    //   id: 2,
+    //   week: 'Week 2',
+    //   title: 'Responsive Design Principles',
+    //   description: 'Master responsive web design and mobile-first approach.'
+    // },
+    // {
+    //   id: 3,
+    //   week: 'Week 3',
+    //   title: 'Advanced JavaScript Concepts',
+    //   description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    // },
+    // {
+    //   id: 4,
+    //   week: 'Week 4',
+    //   title: 'Advanced JavaScript Concepts',
+    //   description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    // },
+    // {
+    //   id: 5,
+    //   week: 'Week 5',
+    //   title: 'Advanced JavaScript Concepts',
+    //   description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    // },
+    // {
+    //   id: 6,
+    //   week: 'Week 6',
+    //   title: 'Advanced JavaScript Concepts',
+    //   description: 'Deep dive into ES6+, async programming, and modern JavaScript patterns.'
+    // },
   ]
 
   return (
