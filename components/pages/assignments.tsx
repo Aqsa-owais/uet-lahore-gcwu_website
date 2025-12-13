@@ -7,16 +7,16 @@ export default function Assignments() {
   const assignments = [
     {
       id: 1,
-      week: 'Week 1',
-      title: 'Create & Polish Your LinkedIn Profile',
-      description: 'Create & Polish Your LinkedIn Profile.'
+      week: 'Assignments',
+      title: 'Complete your Assignments',
+      description: 'Complete your Assignments.'
     },
-    {
-      id: 2,
-      week: 'Week 2',
-      title: 'Create a GitHub Profile README',
-      description: 'Create a GitHub Profile README.'
-    },
+    // {
+    //   id: 2,
+    //   week: 'Week 2',
+    //   title: 'Create a GitHub Profile README',
+    //   description: 'Create a GitHub Profile README.'
+    // },
     // {
     //   id: 3,
     //   week: 'Week 3',
