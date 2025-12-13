@@ -11,12 +11,12 @@ export default function Assignments() {
       title: 'Create & Polish Your LinkedIn Profile',
       description: 'Create & Polish Your LinkedIn Profile.'
     },
-    // {
-    //   id: 2,
-    //   week: 'Week 2',
-    //   title: 'Responsive Design Principles',
-    //   description: 'Master responsive web design and mobile-first approach.'
-    // },
+    {
+      id: 2,
+      week: 'Week 2',
+      title: 'Create a GitHub Profile README',
+      description: 'Create a GitHub Profile README.'
+    },
     // {
     //   id: 3,
     //   week: 'Week 3',
@@ -73,6 +73,25 @@ export default function Assignments() {
                 <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSePF7KBuC5j6Lo7yIm7gwNJFQHJnlGSsOj5cvELw5o3cfCC6g/viewform', '_blank')}
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
+
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() => window.open('https://docs.google.com/document/d/1W0hC4--NyelKcQaA_FK2zIXXkTcdU8Kkz3SqygCGBOk/edit?tab=t.0#heading=h.ai2xmkv29hwf', '_blank')}
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSe4vA7b8CG0FhpO_8abqfZm5xPkTDb1LTEpAypG03GB37DMKg/viewform', '_blank')}
                 >
                   <LinkIcon size={18} />
                   Submit Assignment
