@@ -11,7 +11,6 @@ export default function Assignments() {
       title: "Complete your Assignments",
       description: "Complete your Assignments.",
     },
-    
   ];
 
   return (
@@ -40,7 +39,7 @@ export default function Assignments() {
                   </p>
                 </div>
               </div>
-             {/* first Assignments */}
+              {/* first Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
@@ -68,7 +67,7 @@ export default function Assignments() {
                   Submit Assignment
                 </Button>
               </div>
-               {/* 2nd Assignments */}
+              {/* 2nd Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
@@ -97,65 +96,36 @@ export default function Assignments() {
                 </Button>
               </div>
               {/* 3rd Assignments */}
-
-               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
-          <Button
-            variant="outline"
-            className="flex items-center gap-2"
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/document/d/1Hfx9uUtc9GOWv8E6IVtN2IfrGb-mOJv1_hzx_p5I9QA/edit?tab=t.0#heading=h.pkq66acuwkcq",
-                "_blank"
-              )
-            }
-          >
-            <FileText size={18} />
-            Assignment Instructions
-          </Button>
-          <Button
-            className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSckn2t8SQQcHHEc0Y6Scy-d0JUMiVVNnP63hxPMiuWZ0myxlg/viewform",
-                "_blank"
-              )
-            }
-          >
-            <LinkIcon size={18} />
-            Submit Assignment
-          </Button>
-        </div>
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/document/d/1Hfx9uUtc9GOWv8E6IVtN2IfrGb-mOJv1_hzx_p5I9QA/edit?tab=t.0#heading=h.pkq66acuwkcq",
+                      "_blank"
+                    )
+                  }
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/forms/d/e/1FAIpQLSckn2t8SQQcHHEc0Y6Scy-d0JUMiVVNnP63hxPMiuWZ0myxlg/viewform",
+                      "_blank"
+                    )
+                  }
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
             </div>
           ))}
         </div>
-
-        {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
-          <Button
-            variant="outline"
-            className="flex items-center gap-2"
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/document/d/1Hfx9uUtc9GOWv8E6IVtN2IfrGb-mOJv1_hzx_p5I9QA/edit?tab=t.0#heading=h.pkq66acuwkcq",
-                "_blank"
-              )
-            }
-          >
-            <FileText size={18} />
-            Assignment Instructions
-          </Button>
-          <Button
-            className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSckn2t8SQQcHHEc0Y6Scy-d0JUMiVVNnP63hxPMiuWZ0myxlg/viewform",
-                "_blank"
-              )
-            }
-          >
-            <LinkIcon size={18} />
-            Submit Assignment
-          </Button>
-        </div> */}
 
         <div className="mt-12 p-6 bg-muted/30 rounded-lg border border-border">
           <p className="text-foreground/70 text-center">
