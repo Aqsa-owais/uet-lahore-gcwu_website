@@ -101,6 +101,59 @@ export default function Assignments() {
           ))}
         </div>
 
+        <div className="space-y-6">
+          {assignments.map((assignment) => (
+            <div key={assignment.id} className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                <div>
+                  <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold mb-2">
+                    {assignment.week}
+                  </div>
+                  <h2 className="text-2xl font-bold text-foreground">{assignment.title}</h2>
+                  <p className="text-foreground/70 mt-2">{assignment.description}</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() => window.open('https://docs.google.com/document/d/171rHSiRwF8KOq9L5p9Eoh8VByE5wW1qK5dmaM-FgMZs/edit?tab=t.0#heading=h.gj5xp1xdkdlc', '_blank')}
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSePF7KBuC5j6Lo7yIm7gwNJFQHJnlGSsOj5cvELw5o3cfCC6g/viewform', '_blank')}
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
+
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() => window.open('https://docs.google.com/document/d/1Hfx9uUtc9GOWv8E6IVtN2IfrGb-mOJv1_hzx_p5I9QA/edit?tab=t.0#heading=h.pkq66acuwkcq', '_blank')}
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSckn2t8SQQcHHEc0Y6Scy-d0JUMiVVNnP63hxPMiuWZ0myxlg/viewform', '_blank')}
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
+            </div>
+          ))}
+        </div>
+
         <div className="mt-12 p-6 bg-muted/30 rounded-lg border border-border">
           <p className="text-foreground/70 text-center">
             Remember to submit your assignments on time. Each assignment builds on the previous concepts learned in the sessions.
