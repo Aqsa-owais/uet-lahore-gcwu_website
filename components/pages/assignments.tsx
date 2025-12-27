@@ -123,6 +123,34 @@ export default function Assignments() {
                   Submit Assignment
                 </Button>
               </div>
+              {/* 4th Assignments */}
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/document/d/1TbiDlfKfu3VaVDrNOeCa3Elwwxp2RO9dUnz9CSY9DJw/edit?tab=t.0",
+                      "_blank"
+                    )
+                  }
+                >
+                  <FileText size={18} />
+                  Assignment Instructions
+                </Button>
+                <Button
+                  className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/forms/d/e/1FAIpQLSef4JC7o-u71qhzVFb3s1IL64SSkMV56ULvo2-3lB-3-854tA/viewform",
+                      "_blank"
+                    )
+                  }
+                >
+                  <LinkIcon size={18} />
+                  Submit Assignment
+                </Button>
+              </div>
             </div>
           ))}
         </div>
