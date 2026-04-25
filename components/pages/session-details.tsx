@@ -14,7 +14,7 @@ export default function SessionDetails() {
             </div>
             <div>
               <h2 className="text-2xl font-bold text-foreground mb-2">Timing</h2>
-              <p className="text-lg text-foreground/80">7:00 PM – 9:00 PM (PKT)</p>
+              <p className="text-lg text-foreground/80">6:00 PM – 8:00 PM (PKT)</p>
             </div>
           </div>
 

@@ -22,7 +22,7 @@ export default function RecordedLectures() {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 font-semibold"
-            onClick={() => window.open('https://docs.google.com/spreadsheets/d/1fCNCKrhIOnAJshwFC6wyzb5-qrluAYVgOT6Dey7gxTY/edit?usp=sharing', '_blank')}
+            onClick={() => window.open('https://docs.google.com/spreadsheets/d/18Zm5hCuoCF4goJcfl-Or34bdnQZguxNGLItCTUTzVDs/edit?gid=0#gid=0', '_blank')}
           >
             Open Recordings Sheet
           </Button>

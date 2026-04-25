@@ -40,7 +40,7 @@ export default function Assignments() {
                 </div>
               </div>
               {/* first Assignments */}
-              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -66,9 +66,9 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
               {/* 2nd Assignments */}
-              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -94,9 +94,9 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
               {/* 3rd Assignments */}
-              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -122,9 +122,9 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
               {/* 4th Assignments */}
-              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -150,9 +150,9 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
               {/* 5th Assignments */}
-              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -178,9 +178,9 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
               {/* 6th Assignments */}
-               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+               {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
@@ -206,7 +206,7 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

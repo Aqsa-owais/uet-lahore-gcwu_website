@@ -7,11 +7,11 @@ export default function Home() {
       <section className="bg-gradient-to-br from-primary/10 to-primary/5 px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full mb-6 text-sm font-semibold">
-            New Course for 2025
+            New Course for 2026
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Latest Trends in Technology 2025
+            Latest Trends in Technology 2026
           </h1>
           
           <p className="text-lg sm:text-xl text-foreground/80 mb-8 leading-relaxed">
