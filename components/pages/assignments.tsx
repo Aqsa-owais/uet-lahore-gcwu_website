@@ -40,13 +40,13 @@ export default function Assignments() {
                 </div>
               </div>
               {/* first Assignments */}
-              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
                   onClick={() =>
                     window.open(
-                      "https://docs.google.com/document/d/171rHSiRwF8KOq9L5p9Eoh8VByE5wW1qK5dmaM-FgMZs/edit?tab=t.0#heading=h.gj5xp1xdkdlc",
+                      "https://docs.google.com/document/d/1A3DdR-8NK1WpV_l8BRYFgf_fE46KDgmU8jYgMkwfyOo/edit?tab=t.0#heading=h.jm555u21o2rn",
                       "_blank"
                     )
                   }
@@ -58,7 +58,7 @@ export default function Assignments() {
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() =>
                     window.open(
-                      "https://docs.google.com/forms/d/e/1FAIpQLSePF7KBuC5j6Lo7yIm7gwNJFQHJnlGSsOj5cvELw5o3cfCC6g/viewform",
+                      "https://docs.google.com/forms/d/e/1FAIpQLScgaONfScEnOhkKtsVXi-GgtkbNMY8YGEhCRartW1vWN4FMGg/viewform",
                       "_blank"
                     )
                   }
@@ -66,7 +66,7 @@ export default function Assignments() {
                   <LinkIcon size={18} />
                   Submit Assignment
                 </Button>
-              </div> */}
+              </div>
               {/* 2nd Assignments */}
               {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
