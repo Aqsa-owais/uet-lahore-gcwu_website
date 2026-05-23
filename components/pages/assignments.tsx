@@ -97,10 +97,7 @@ export default function Assignments() {
               </div>
               {/* 3rd Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
-                <Button
-                  variant="outline"
-                  className="flex items-center gap-2"
-                >
+                <Button variant="outline" className="flex items-center gap-2">
                   <FileText size={18} />
                   Hackathon Assignment will be Announce Soon
                 </Button>
@@ -120,13 +117,6 @@ export default function Assignments() {
               {/* 4th Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
-                  variant="outline"
-                  className="flex items-center gap-2"
-                >
-                  <FileText size={18} />
-                  Assignment 4 
-                </Button>
-                <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() =>
                     window.open(
@@ -136,7 +126,7 @@ export default function Assignments() {
                   }
                 >
                   <LinkIcon size={18} />
-                  Submit Assignment
+                  Assignment 4 Submission Form
                 </Button>
               </div>
               {/* 5th Assignments */}
