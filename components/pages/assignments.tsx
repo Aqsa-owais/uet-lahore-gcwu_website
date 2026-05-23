@@ -52,7 +52,7 @@ export default function Assignments() {
                   }
                 >
                   <FileText size={18} />
-                  Assignment Instructions
+                  Assignment 1 Instructions
                 </Button>
                 <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
@@ -80,7 +80,7 @@ export default function Assignments() {
                   }
                 >
                   <FileText size={18} />
-                  Assignment Instructions
+                  Assignment 2 Instructions
                 </Button>
                 <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
@@ -119,6 +119,13 @@ export default function Assignments() {
               </div>
               {/* 4th Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                >
+                  <FileText size={18} />
+                  Assignment 4 
+                </Button>
                 <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() =>
