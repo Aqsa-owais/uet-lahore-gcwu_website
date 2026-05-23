@@ -96,21 +96,15 @@ export default function Assignments() {
                 </Button>
               </div>
               {/* 3rd Assignments */}
-              {/* <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
                   variant="outline"
                   className="flex items-center gap-2"
-                  onClick={() =>
-                    window.open(
-                      "https://docs.google.com/document/d/1Hfx9uUtc9GOWv8E6IVtN2IfrGb-mOJv1_hzx_p5I9QA/edit?tab=t.0#heading=h.pkq66acuwkcq",
-                      "_blank"
-                    )
-                  }
                 >
                   <FileText size={18} />
-                  Assignment Instructions
+                  Hackathon Assignment will be Announce Soon
                 </Button>
-                <Button
+                {/* <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() =>
                     window.open(
@@ -121,8 +115,8 @@ export default function Assignments() {
                 >
                   <LinkIcon size={18} />
                   Submit Assignment
-                </Button>
-              </div> */}
+                </Button> */}
+              </div>
               {/* 4th Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
                 <Button
