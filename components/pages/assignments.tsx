@@ -97,22 +97,31 @@ export default function Assignments() {
               </div>
               {/* 3rd Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
-                <Button variant="outline" className="flex items-center gap-2">
+                <Button
+                  variant="outline"
+                  className="flex items-center gap-2"
+                  onClick={() =>
+                    window.open(
+                      "https://docs.google.com/document/d/19tb7kVfot9AvObH7cd1ljsXHovpRezstH6RtpLSl8UA/edit?tab=t.0#heading=h.xbxheb7l2g7h",
+                      "_blank",
+                    )
+                  }
+                >
                   <FileText size={18} />
-                  Hackathon Assignment will be Announce Soon
+                  Assignment 3 Instructions
                 </Button>
-                {/* <Button
+                <Button
                   className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
                   onClick={() =>
                     window.open(
-                      "https://docs.google.com/forms/d/e/1FAIpQLSckn2t8SQQcHHEc0Y6Scy-d0JUMiVVNnP63hxPMiuWZ0myxlg/viewform",
+                      "https://docs.google.com/forms/d/e/1FAIpQLSdnvYVmbXY98vLhgxovpsvuMMo7FoA4L2ogvDn7PvueP-cmEw/viewform",
                       "_blank"
                     )
                   }
                 >
                   <LinkIcon size={18} />
                   Submit Assignment
-                </Button> */}
+                </Button>
               </div>
               {/* 4th Assignments */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
